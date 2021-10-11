@@ -27,5 +27,18 @@
     ]
   },
   "projects": {
+    "acme": {
+      "tags": []
+    },
+    "acme-e2e": {
+      "tags": [],
+      "implicitDependencies": ["acme"]
+    },
+    "acme-layout": {
+      "tags": []
+    },
+    "acme-signup": {
+      "tags": []
+    }
   }
 }

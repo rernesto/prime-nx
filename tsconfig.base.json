@@ -15,6 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@prime-nx/acme/layout": ["libs/acme/layout/src/index.ts"],
+      "@prime-nx/acme/signup": ["libs/acme/signup/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
