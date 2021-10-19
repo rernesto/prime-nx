@@ -18,7 +18,12 @@
             "tsConfig": "apps/acme/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": ["apps/acme/src/favicon.ico", "apps/acme/src/assets"],
-            "styles": ["apps/acme/src/styles.scss"],
+            "styles": [
+              "node_modules/primeng/resources/primeng.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeflex/primeflex.css",
+              "apps/acme/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
